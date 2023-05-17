@@ -1,0 +1,22 @@
+let numbers=[4,3,5,7,1]
+let multiply = numbers.reduce((a, b) => (a * b),1);
+function fizzbuzzPlusPlus(numbers, words) {
+
+    let res = []
+    let multiply = numbers.reduce((a, b) => (a * b),1);
+    
+    for (let i = 1; i <= multiply; i++) {
+    
+      let result = '';
+      
+      for (let j = 0; j < numbers.length; j++)
+        if (i % numbers[j] === 0) 
+          result += words[j];
+      
+      res.push(result || i);
+      
+    }
+    
+    return res;
+    
+  }
