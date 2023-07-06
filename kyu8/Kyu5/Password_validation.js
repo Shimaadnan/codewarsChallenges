@@ -1,3 +1,11 @@
+// You need to write regex that will validate a password to make sure it meets the following criteria:
+// Alphanumeric characters are the numbers 0-9 and letters A-Z (both uppercase and lowercase)
+// At least six characters long
+// contains a lowercase letter
+// contains an uppercase letter
+// contains a digit
+// only contains alphanumeric characters (note that '_' is not alphanumeric)
+
 function validate(password) {
     if(password.length <6) return false;
     var lowerCase="abcdefghijklmnopqrstuvwxyz";
