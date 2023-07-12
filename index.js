@@ -15,4 +15,9 @@ function addThreeNumbers(num1, num2, num3) {
     return coolSentence
   }
   console.log('hi i am shima'.indexOf('Dani'))
-  
+  function isSubstring(searchString, subString) {
+    // your code here...
+    let lowersearchstring=searchString.toLowerCase()
+    let lowersubString=subString.toLowerCase()
+    return (lowersearchstring.indexOf(lowersubString) !== -1 ?  true :  false) 
+  }
