@@ -21,3 +21,13 @@ function addThreeNumbers(num1, num2, num3) {
     let lowersubString=subString.toLowerCase()
     return (lowersearchstring.indexOf(lowersubString) !== -1 ?  true :  false) 
   }
+  function fizzBuzzNested(max) {
+    for (let i = 0; i < max; i += 1) {
+      if (i % 3 === 0) {
+        if (i % 5 !== 0) {
+          console.log(i);
+        }
+      } else if (i % 5 === 0) {
+        console.log(i);
+      }
+    }}
