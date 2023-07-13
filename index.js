@@ -31,3 +31,11 @@ function addThreeNumbers(num1, num2, num3) {
         console.log(i);
       }
     }}
+
+    function logBetweenWhile(lowNum, highNum) {
+        let i = lowNum;
+        while (i <= highNum) {
+          console.log(i);
+          i++;
+        }
+      }
