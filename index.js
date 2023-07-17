@@ -39,3 +39,14 @@ function addThreeNumbers(num1, num2, num3) {
           i++;
         }
       }
+
+
+      function alphabetPosition(text) {
+        const letters = 'abcdefghijklmnopqrstuvwxyz';
+        
+        return text.toLowerCase()
+                   .split('')
+                   .filter(t => letters.indexOf(t) > -1)
+                   .map(t => letters.indexOf(t)+1 || '')
+                   .join(' ');
+      }
