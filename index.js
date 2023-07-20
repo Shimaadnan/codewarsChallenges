@@ -50,3 +50,5 @@ function addThreeNumbers(num1, num2, num3) {
                    .map(t => letters.indexOf(t)+1 || '')
                    .join(' ');
       }
+
+  // When you have app try to talk about the app you built more    
