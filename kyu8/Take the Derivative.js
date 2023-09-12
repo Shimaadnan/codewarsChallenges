@@ -24,3 +24,12 @@ function logBetweenWhile(lowNum, highNum) {
       i++;
     }
   }
+  //log between steps
+  function logBetweenStepper(min,max,step){
+    let i=min
+    while(i<=max){
+        console.log(i)
+          i=i+step
+    }
+   
+}
