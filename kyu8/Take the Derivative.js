@@ -33,3 +33,16 @@ function logBetweenWhile(lowNum, highNum) {
     }
    
 }
+//divisible by either 3 or 5, but not both.
+function fizzBuzzWhile(max) {
+    let i = 0;
+    while (i < max) {
+      if (i % 3 === 0 && i % 5 !== 0) {
+        console.log(i);
+      } else if (i % 5 === 0 && i % 3 !== 0) {
+        console.log(i);
+      }
+      i++;
+    }
+  }
+  
