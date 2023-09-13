@@ -50,3 +50,13 @@ function fizzBuzzWhile(max) {
     // your code here...
     return array1.concat(array2)
 }
+// Double items of array
+function doubler(numbers) {
+    // your code here...
+    let result=[]
+    for(let i of numbers){
+     i=i*2;
+     result.push(i)
+    }
+    return result
+}
