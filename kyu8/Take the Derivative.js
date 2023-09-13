@@ -45,4 +45,8 @@ function fizzBuzzWhile(max) {
       i++;
     }
   }
-  
+  //add array
+  function combineArray(array1, array2) {
+    // your code here...
+    return array1.concat(array2)
+}
